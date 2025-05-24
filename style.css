@@ -1,18 +1,143 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: black;
+.link-item{
+margin: right 0; ;
+padding-right: 0;
+width: 100%;
 }
-.gallery{
+.link{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: .625rem;
+    padding-left: .625rem;
+}
+
+.main{
     display: flex;
-    flex-wrap: wrap;
-    margin: 1px 0;
-    flex-direction: row;
+     justify-content: center;
+  align-items: center;
+  height: 100%; 
 }
-.gallery img{
-    flex-wrap: wrap;
-    width: 320px;
-    height: 200px;
-    margin: 1px;
-    border-radius: 200px;
+.main h1{
+    font-size: 7rem;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    transform: translate(-50% -50%);
+    color: rgb(253, 89, 72);
+}
+.boby-text{
+        display: block;
+        text-align: center;
+        width: 66.66667vw;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        
+        
+}
+.boby-text h2{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    
+    
+    
+}
+.boby-text p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+} 
+.student-page{
+    position: relative;
+    margin: auto 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8.33333vw;
+    padding-bottom: 8.33333vw;
+    box-sizing: border-box;
+}
+
+.photo{
+    width: 45.66667vw;
+    height: 41.66667vw;
+    margin-left: 8.33333vw;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+.layerbase{
+    width: 59.33333vw;
+    height: 55.33333vw;
+    left: 41.66665vw;
+    margin: 10px;
+    background-color: #FBFFA7;
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+.lastphoto {
+    width: 33.33333vw;
+    height: 25vw;
+    margin-left: 8.33333vw;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+.layerbase div{
+   display: block;
+    unicode-bidi: isolate; 
+}
+.photo div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.text-boby{
+    display: block;
+        text-align: center;
+        width: 66.66667vw;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+}
+.text-boby h2{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.text-boby p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.video{
+   display: flex;
+     justify-content: center;
+  align-items: center;
+  height: 100%;  
+}
+.video iframe{
+    margin: auto 0;
+    position: relative;
+}
+.text-second{
+    display: block;
+        text-align: center;
+        width: 66.66667vw;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;  
+}
+.text-second h2{
+     font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.text-second p{
+     font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
 }

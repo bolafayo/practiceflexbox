@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+
+  * body{
+    border: 2px solid red;
+  } 
  .link-item{
         margin: 30px;
     }
@@ -10,14 +14,10 @@
     .main{
         width: 700px;
     }
-    /* .main img{
-        width: 100%;
-        height: 400px;
-    } */
     .main h1{
         font-size: 8rem;
-        content: "";
-        right: 135px;
+        top: 230px;
+        right: 130px;
         
     }
     .boby-text h2{
@@ -25,8 +25,30 @@
         font-size: 24px;
         font-weight: bold;
         line-height: 1.5;
-        
-        
+    }
+    .photo img{
+     width: 100%;
+     height: 100%;
+      margin-bottom: 290px;
+        margin-left: -90px;
+    
+    }
+    .lastphoto img{
+        position: absolute;
+        content: "";
+      right: 490px;
+      top: -35px;
+        width: 200px;
+        height: 200px;
+   
+    }
+    .layerbase{
+        width: 500px;
+        position: absolute;
+        content: "";
+       top: -40px;
+  left: 10px;
+      
     }
     .boby-text p{
         width: 610px;
@@ -35,13 +57,16 @@
         
     }
     .text-boby h2{
-        width: 620px;
+        margin-top: 80px;
+        margin-left: 60px;
+        width: 520px;
         font-size: 24px;
         font-weight: bold;
   }
   .text-boby p{
     width: 500px;
         font-weight: 400; 
+      
        
           
   }
@@ -60,10 +85,34 @@ width: 610px;
         line-height: 1.5;
         margin-bottom: 60px;
 }
+.second img{
+    width: 250px;
+ 
+}
+.second{
+     content: "";
+  right: 120px;
+  bottom: 90px;
+}
+.forth img{
+width: 320px;
+content: "";
+right: 40px;
+}
+.third img{
+    width: 250px;
+}
+.third{
+    content: "";
+    right: 19px;
+    bottom: 90px;
+}
 .first{
-    height: 82vw;
+    width: 410px;
+    height: 600px;
 }
 .text2 h2{
+    margin-top: -120px;
     width: 610px;
         font-size: 24px;
         font-weight: bold;
@@ -75,7 +124,9 @@ width: 610px;
         margin-bottom: 10px;
 }
 .makers img{
-    max-width: 120%;
+    width: 100%;
+    height: 100%;
+    /* max-width: 120%; */
     margin: -40px;
     height: 100%;
 }
@@ -92,12 +143,13 @@ width: 610px;
 .box1{
     width: 69.66667vw;
     height: 67.33333vw;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     margin: 25px;
+    margin-right: -60px;
     
 }
 .box3 img{
-    margin-bottom: -50px;
+    margin-right: -30px;
     height: 50vw;
     width: 47.66667vw;
 }
@@ -121,7 +173,7 @@ width: 610px;
     height: 400px;
 }
 .container2{
-    height: 135px;
+    height: 335px;
 }
 .container2 h2{
     font-size: 17px;
@@ -135,8 +187,95 @@ width: 610px;
     width: 12px;
     color: blue;
 }
-/* .main-contact a{
-    font-size: 12px; */
+ .logo{
+        width: 150px;
+        margin: 50px;
+    }
+    
+    .main-registers{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 30px;
+    }
+    .register1 ul{
+        margin-left: 15px;
+        font-size: 17px;
+    }
+    .register a {
+        margin-top: 40px;
+        width: 37px;
+        margin-left: 19px;
+    }
+    .register1 img{
+        width: 15px;
+        
+    }
+    .register3{
+        margin: 10px;
+       margin-top: 30px;
+    }
+    .register ul{
+        content: "";
+        top: 20px;
+    }
+    .register3 h2{
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    .register3 span{
+        font-size:17px;
+        font-weight: 400;
+      
+    }
+    .register3{
+        margin-top: 50px;
+    }
+    .register3 input{
+        padding:11px;
+        width: 590px;
+        margin-bottom: 60px;
+        /* top:100px;  */
+    }
+    .register3 button{
+        width: 79px;
+        padding:12px;
+        font-size: 12px;
+        content: "";
+        left: 230px;
+     top: -99px;
+    }
+    .register2 a{
+        font-size: 16px;
+        font-weight: bold;
+      
+    }
+    .main-community{
+       margin-right: -90px;
+    }
+.register2{
+    margin: auto 10px;
+}
+       .community1 a{
+        font-size: 16px;
+       content: "";
+      
+      }  
+      .main-contact{
+        display: flex;
+        flex-direction: column;
+       font-weight: bold;
+       margin-left: -40px;
+       font-size: 35px;
+       
+      }
+    .main-contact span{
+        content: "";
+        right: 410px;
+        top: 4px;
+        font-weight: bold;
+    }
 }
 
     
@@ -392,59 +531,102 @@ width: 130px;
         margin: 50px;
     }
     
-    .main-registers{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        margin: 30px;
+      .register1 ul{
+        line-height: 1.5;
+        margin-left: 35px;
+        font-size: 17px;
+        text-decoration: none;
+        list-style: none;
+       
     }
-    .register1 ul{
-        font-size: 18px;
+    .register1 a{
+      text-decoration: none;
+        color: black;
     }
-    .register img{
-        width: 34px;
+    .register a {
+        width: 37px;
+        margin-left: 19px;
+        list-style: none;
+        color: black;
     }
     .register1 img{
-        width: 25px;
+        width: 15px;
         
     }
     .register3{
-        margin: 10px;
-        content: "";
-        /* top: 100px; */
-        
-        
-    }
-    .register ul{
-        content: "";
-        top: 20px;
+        margin-left: 30px;
+      
     }
     .register3 h2{
-        font-size: 17px;
-        
+        font-size: 16px;
     }
-    .register3 span{
-        font-size: 15px;
-       
+
+    .register3{
+        margin-top: 30px;
+        font-family: sans-serif;
     }
     .register3 input{
         padding:9px;
-        width: 300px;
+        width: 250px;
+     margin-top: 20px;
+        top:100px; 
     }
     .register3 button{
-        width: 63px;
+        background-color: blue;
+        color: white;
+        border-color: transparent;
+        width: 79px;
         padding:9px;
         font-size: 12px;
         content: "";
-        left: -50px;
-      .community1 ul{
-        margin: 10px;
-       content: "";
-       left: 40px;
-       bottom: 60px;
-      }  
+        left: -60px;
+     top: -96px;
     }
-       
+    .register2 a{
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+        color: black; 
+    }
+     .register2 ul{ 
+        line-height: 1.5;
+        font-family: sans-serif;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 30px;
+     }
+       .community1 ul{
+        margin-left: 20px;
+        list-style: none;
+        text-decoration: none;
+      list-style: none;
+        font-size: 17px;
+       content: "";
+      
+      }  
+      .community1 a{
+        color: black;
+        text-decoration: none;
+        margin: 20px;
+      }
+      .community2 select{
+        padding: 6px;
+        width: 220px;
+        margin: 10px;
+        margin-left: 20px;
+      }
+      .main-contact a{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 14px;
+      }
+
+
+
+     
         
     }
    
